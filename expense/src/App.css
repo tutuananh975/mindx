@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-app {
+  margin-top: 20px;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.container-header {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #897bda;
+  justify-content: space-between;
+}
+
+.input-add-expense {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.input-add-expense > input {
+  width: 80%;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+}
+
+.input-add-expense > label {
+  color: #FFF;
+}
+
+.group-btn-add-expense {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.btn-add-expense {
+  color: #FFF;
+  background-color: #862796;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+}
+
+.btn-cancel-expense {
+  background-color: #cfcfcf;
+  color: #707070;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+}
+
+.container-body {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #191919;
+  margin-top: 25px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.filter-text {
+  color: #FFF;
+}
+
+#year {
+  width: 100px;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+}
+
+.chart {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e1cae4;
+  border-radius: 10px;
+  margin: 12px 0;
+}
+
+.column {
+  height: 100px;
+  width: 100%;
+  background-color: #baa5ed;
+  border-radius: 10px;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: flex-end;
+} 
+
+.month-desc {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.percent {
+  width: 100%;
+  background-color: #3c14a8;
+}
+
+.expense {
+  width: 100%;
+  background-color: #575757;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.desc-expense {
+  display: flex;
+  align-items: center;
+}
+
+.time-expense {
+  padding: 15px 20px;
+  background-color: #191919;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.time-expense > div {
+  margin-bottom: 8px;
+}
+
+.time-expense > div:last-child {
+  margin: 0;
+}
+
+.name-expense {
+  color: #FFF;
+  font-weight: 400;
+}
+
+.amout-expense {
+  padding: 8px;
+  background-color: #862796;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+}

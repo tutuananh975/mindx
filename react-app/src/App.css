@@ -1,0 +1,25 @@
+#root {
+    background-color: #f5f5f5;
+}
+
+.product-list {
+    background-color: #FFF;
+    box-shadow: 2px 2px 2px #f3f3f3;
+}
+
+.product-item {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+}
+
+.product-item > img {
+    width: calc(100% - 10px);
+    margin: auto;
+}
+
+.product-item > p {
+    text-align: center;
+}
+

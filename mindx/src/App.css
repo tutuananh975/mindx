@@ -1,0 +1,4 @@
+.input-username::placeholder {
+  position: relative;
+  left: 40%;
+}
